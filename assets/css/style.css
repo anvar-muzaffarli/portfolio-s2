@@ -17,40 +17,31 @@ align-items: center;
 
 }
 
-.curtain-navbar {
-    background-color: rgba(0,0,0,0.8);
-    height: 100vh;
-    position: fixed;
-    width: 100%;
+.overlay-menu {
+    height: 100%;
+    position:fixed;
+    
+    background-color: rgba(0,0,0,.5);
+    width: 0;
     overflow-x:hidden;
-}
 
-.curtain-navbar a {
-    color:#fff;
-    margin-top: 20px;
-    font-size: 34px;
-    transition: 1.2s cubic-bezier(1,-0.71,0,1.42);
-}
-
-.curtain-navbar a:hover {
-    transform: translateX(20px);
-}
-
-.curtain-navbar .fa-xmark {
-    color:#fff;
-    font-size: 44px;
-    position: absolute;
-    right: 40px;
 
 }
 
 .overlay-nav-links {
     display: flex;
     flex-direction: column;
-    height: 100vh;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
+
+.overlay-nav-links a {
+    color:white;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
 
 /* TODO header end */
 
